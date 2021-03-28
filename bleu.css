@@ -21,6 +21,19 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+    font-family: Acephimere;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+h4 {
+    font-family: Acephimere;
+    font-style: italic;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
 #rectangle {
 	width:auto;
 	height:7px;
@@ -83,19 +96,8 @@ footer {
 	background-color: #e8425c;
 }
 
-#h3_rouge {
-	font-family: Acephimere;
+.rouge {
 	color: #e8425c;
-	font-style: italic;
-	margin-bottom: 0px;
-}
-
-#h4_rouge {
-	font-family: Acephimere;
-	color: #f2757a;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
 }
 
 /*Orange*/
@@ -109,19 +111,8 @@ footer {
 	background-color: #f7a838;
 }
 
-#h3_orange {
-	font-family: Acephimere;
-	color: #f7a838;
-	font-style: italic;
-	margin-bottom: 0px;
-}
-
-#h4_orange {
-	font-family: Acephimere;
-	color: #fbb669;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
+.orange {
+    color: #f7a838;
 }
 
 /*Jaune*/
@@ -135,19 +126,8 @@ footer {
 	background-color: #fcc433;
 }
 
-#h3_jaune {
-	font-family: Acephimere;
+.jaune {
 	color: #fcc433;
-	font-style: italic;
-	margin-bottom: 0px;
-}
-
-#h4_jaune {
-	font-family: Acephimere;
-	color: #ffcd6b;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
 }
 
 /*Vert*/
@@ -161,19 +141,8 @@ footer {
 	background-color: #93c24e;
 }
 
-#h3_vert {
-	font-family: Acephimere;
+.vert {
 	color: #93c24e;
-	font-style: italic;
-	margin-bottom: 0px;
-}
-
-#h4_vert {
-	font-family: Acephimere;
-	color: #a0d07e;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
 }
 
 /*Bleu*/
@@ -187,19 +156,8 @@ footer {
 	background-color: #82cff5;
 }
 
-#h3_bleu {
-	font-family: Acephimere;
+.bleu {
 	color: #82cff5;
-	font-style: italic;
-	margin-bottom: 0px;
-}
-
-#h4_bleu {
-	font-family: Acephimere;
-	color: #8dd7f7;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
 }
 
 /*Indigo*/
@@ -213,19 +171,8 @@ footer {
 	background-color: #0053a1;
 }
 
-#h3_indigo {
-	font-family: Acephimere;
+.indigo {
 	color: #0053a1;
-	font-style: italic;
-	margin-bottom: 0px;
-}
-
-#h4_indigo {
-	font-family: Acephimere;
-	color: #3b72b8;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
 }
 
 /*Violet*/
@@ -239,17 +186,57 @@ footer {
 	background-color: #a067a8;
 }
 
-#h3_violet {
-	font-family: Acephimere;
+.violet {
 	color: #a067a8;
-	font-style: italic;
-	margin-bottom: 0px;
 }
 
-#h4_violet {
-	font-family: Acephimere;
-	color: #a781ba;
-	font-style: italic;
-	margin-top: 2px;
-	margin-bottom: 2px;
+div.button {
+    margin: 20px auto;
+}
+
+button.buttonAlert {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
 }
